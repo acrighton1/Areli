@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+
+
+html, body {
+    box-sizing:border-box;
+    height: 100%;
+    width: 100%;   
+    overflow-x:hidden;
+}
+
+.link-secondary {
+    color: #C17C74 !important;
+}
+
+.header-logo{
+    color: #C17C74; 
+}
+
+.social-icons{
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    justify-content: space-evenly;
+
+
+}
+
+.vl {
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 25px;    
+  }
+
+
+  .top-section{
+    background-color:#f1e7dd;    
+    height: 50vh;
+    width: 100vw;    
+    margin-top:5%;
+  
+    
+  }
+
+  .carousel-caption{
+    color:black;
+  }
+
+  .image-post-1{
+      width:45vh;
+      margin-top:-30%;   
+ 
+  }
+
+ 
+  
+  .image-post-2{
+    width:50vh;
+    margin-top:5%;
+
+}
+
+.position-relative{
+  margin-top:-3% !important;
+}
+
+
+  .btn-primary{      
+      background-color:#C17C74 !important;
+      width:230px;            
+  }
+
+  
+  .well{
+      margin-right:25%;
+  }
+
+
+ 
+
+
+  .boxed {
+    background: ghostwhite; 
+    font-size: 20px; 
+    color:#C17C74;
+    padding: 10px;    
+    border: 1px solid lightgray; 
+    position:absolute;
+    left:-4%;
+    top:-10%;
+  }
+
+  .boxed-2{
+    background: ghostwhite; 
+    font-size: 20px; 
+    color:#C17C74;
+    padding: 10px;    
+    border: 1px solid lightgray; 
+    position:absolute;
+    left:-3%;
+    top:15%;
+  }
+
+  .boxed-3{
+    background: ghostwhite; 
+    font-size: 15px; 
+    color:#C17C74;
+    padding: 2px;    
+    border: 1px solid lightgray; 
+    position:absolute;
+    left:40%;
+    top:8%;
+    
+  }
+
+  .boxed-4{
+    background: ghostwhite; 
+    font-size: 20px; 
+    color:#C17C74;
+    padding: 2px;    
+    border: 1px solid lightgray; 
+    position:absolute;
+    top:3%;
+    right:28%;
+    
+  }
+
+  .boxed-5{
+    background: ghostwhite; 
+    font-size: 20px; 
+    color:#C17C74;
+    padding: 2px;    
+    border: 1px solid lightgray; 
+    position:absolute;
+    right:28%;
+    top:10%;
+  }
+
+
+  .sidebar-style{       
+    padding-left:0% !important;
+    margin-top:0% !important; 
+    z-index:0;   
+   }
+
+ 
+
+.sidebar-1{
+    max-width:18em !important; 
+    
+    
+    
+}
+
+
+
+.first col{
+  margin-left:100px;
+  width:25% !important;
+}
+
+
+@media screen and (min-width:2560px){
+  .image-post-1{
+    margin-top:25% !important;
+  }
+  .boxed{
+    margin-top:70% !important;
+  }
+  .image-post-2 {
+    width: 50vh;
+    margin-top: 5%;
+    padding-right: 25%;
+}
+}
+
+
+.sidebar{
+  margin-top:-5%;
+}
+
+ .mid-section{ 
+   background-color: #2A3D45;   
+  height: 55vh;
+  width: 100vw; 
+  margin-top:15%;
+ }
+
+ .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent !important; 
+  background-clip: border-box;
+  border: 0 !important;
+
+
+}
+
+
+
+.articles-section{
+  background-color:#f1e7dd;   
+    width: 100vw;   
+    padding:5%;
+    margin-top:25%;
+    
+}
+
+.carousel-title{
+  color:#F1E7DD;
+  font-size:16px;
+}
+
+.card-title{
+ color: #F1E7DD;
+
+}
+
+.card-text{
+  color: #F1E7DD;
+  font: normal normal normal 20px/32px Raleway;
+}
+
+
+.article-title {
+margin:5%;
+color:#C17C74;
+font-family: Crimson Text;
+}
+
+
+.article-card-title{
+  color:#2A3D45;
+  font-family: Crimson Text;  
+}
+
+.article-card-text{
+  color:#2A3D45;
+}
+
+.sidebar{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+  .mid-section{
+    margin-bottom:90rem;
+  }
+  .social-icons {
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    justify-content: space-evenly;
+    padding:1em;
+    margin-bottom:5em;
+}
+
+.image-1-column {
+   padding-top:100%;
+   margin-left:24%;
+   margin-right:25%;
+   
+}
+
+i {
+   margin: 1em;
+
+}
+.vl{
+   margin-top:10px;
+}  
+  
+  
+  .carousel-flipper{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        max-width:350px;
+        margin-top:10%;
+    }
+
+    .sidebar-style{       
+      padding-left:0% !important;
+      margin-top:0% !important; 
+      z-index:0;   
+     }
+
+ 
+    .card{
+      margin-top:350%;
+    }
+
+ .sidebar{
+   margin-left:50% !important;
+ }
+
+ .card-body{
+  background-color: #2A3D45;   
+ }
+ .article-body{
+   background-color:white;
+ }
+ 
+ .articles-section{
+  background-color:#f1e7dd;   
+    width: 100vw;    
+    margin-top:30%;
+    padding:5%;
+    
+}
+
+.article{
+  margin-top:-300% !important;
+}
+
+}
+  

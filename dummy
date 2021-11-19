@@ -1,0 +1,63 @@
+<div class="col-md-4 position-relative mx-auto pe-5">              
+                  
+          <div class="first col">
+      <a href="#"><img class="sidebar-1 rounded float-end p-3 mx-auto" src="images/elaine.png" alt="ccs_logo"></a> 
+      <div class="boxed-3 me-5">
+       <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+   </div>
+      </div>              
+      <div class="first col">                   
+          <a href="#"><img class="sidebar-1 rounded float-end p-3 mx-auto" src="images/annie.png" alt="ccs_logo"></a>
+          <div class="boxed-4 me-5">
+           <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+       </div> 
+          </div>   
+          <div class=" first col">
+              <a href="#"><img class="sidebar-1 rounded float-end p-3 mx-auto" src="images/hatmary.png" alt="ccs_logo"></a> 
+              <div class="boxed-5 me-5">
+               <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>                             
+           </div> 
+           <div class="sidebar-button position-absolute top-100 end-50">
+               <button class="btn btn-primary" type="button">LOAD MORE POSTS</button>                       
+             </div>                   
+              </div>                                                               
+
+</div>  
+</div> 
+   
+
+
+
+<div class="carousel-flipper mx-auto">
+  <div class="col-md-4">
+    <div class="carousel-flipper mx-auto w-100">            
+        <p class="carousel-title text-center">LATEST THOUGHTS</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/psalms.png" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/psalms.png" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/psalms.png" class="d-block w-100 img-fluid" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <h1 class="fs-3 text-center">The Book Of Psalms</h1>
+        </div>
+        </div>
+   
