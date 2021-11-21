@@ -61,3 +61,104 @@
         </div>
         </div>
    
+
+
+
+
+
+
+
+
+
+
+        <div class="container d-flex justify-content-center">
+          <div class="top-contained row mx-auto ps-5 pe-5 align-items-center justify-content-between">
+         <div class="col-md-4 position-relative">        
+               <a href="#"><img class="image-post-1 img-fluid" src="images/girlhat.jpg" alt="inn_logo"></a>                          
+               <div class="boxed">
+                   <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+               </div>
+               <h1  class="text-wrap fs-4" style="max-width:20rem; text-align:center; margin-top:2em">What I Learned About Myself This Summer</h1>    
+         </div>
+
+
+         <div class="col-md-4 position-relative">
+            <div class="boxed-2">
+                <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+            </div>
+           <a href="#"><img class="image-post-2 img-fluid" src="images/emma.png" alt="ccs_logo"></a>
+                   <h1  class="text-wrap text-center fs-4 ms-4" style="max-width:20rem; text-align:center; margin-top:2em">What I Learned About Myself This Summer</h1>                   
+         </div>
+
+
+
+         <div class="col-md-4 mx-auto mb-5">              
+          <div class="card text-white">
+            <img src="images/elaine.png" class="card-img w-50 mb-3" alt="...">
+            <div class="card-img-overlay">
+              <div class="boxed-3 me-5">
+       <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+   </div>
+            </div>
+          </div><div class="card text-white">
+            <img src="images/annie.png" class="card-img w-50 mb-3" alt="...">
+            <div class="card-img-overlay">
+              <div class="boxed-4 me-5">
+                <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+            </div> 
+          </div><div class="card  text-black">
+            <img src="images/hatmary.png" class="card-img w-50 mb-3" alt="...">
+            <div class="card-img-overlay">
+              <div class="boxed-5 me-5">
+                <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>                             
+            </div> 
+            </div>
+          </div>
+         
+         
+
+          
+         <div class="side-cards col-md-4">              
+          <div class="card text-white">
+            <img src="images/elaine.png" class="card-img-1 w-50 mb-3" alt="...">
+            <div class="card-img-overlay">
+              <div class="boxed-3 me-5">
+       <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+   </div>
+            </div>
+          </div><div class=" card-img-2 card text-white">
+            <img src="images/annie.png" class=" w-50 mb-3" alt="...">
+            <div class="card-img-overlay">
+              <div class="boxed-4 me-5">
+                <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+            </div> 
+          </div><div class=" card-img-3 card  text-black">
+            <img src="images/hatmary.png" class=" w-50 mb-3" alt="...">
+            <div class="card-img-overlay">
+              <div class="boxed-5 me-5">
+                <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>                             
+            </div> 
+            </div>
+          </div>
+
+
+
+
+          <div class="container d-flex justify-content-center">
+            <div class="top-contained row mx-auto ps-5 pe-5 align-items-center justify-content-between">
+           <div class="col-md-6 position-relative">        
+                 <a href="#"><img class="image-post-1 img-fluid" src="images/girlhat.jpg" alt="inn_logo"></a>                          
+                 <div class="boxed img">
+                     <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+                 </div>
+                 <h1  class="text-wrap fs-4" style="max-width:20rem; text-align:center; margin-top:2em">What I Learned About Myself This Summer</h1>    
+           </div>
+  
+  
+           <div class="col-md-6 position-relative">
+              <div class="boxed-2">
+                  <p class="fs-6 text-center" style=" text-align:center; width:4em;">30 August</p>           
+              </div>
+             <a href="#"><img class="image-post-2 img-fluid" src="images/emma.png" alt="ccs_logo"></a>
+                     <h1  class="text-wrap text-center fs-4 ms-4" style="max-width:20rem; text-align:center; margin-top:2em">What I Learned About Myself This Summer</h1>                   
+           </div>  

@@ -32,11 +32,25 @@ html, body {
   }
 
 
-  .top-section{
-    background-color:#f1e7dd;    
-    height: 50vh;
-    width: 100vw;    
-    margin-top:5%;
+.top-section-1{
+  background-color:#2A3D45;
+  background-image: url(images/nekr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height:50vh;
+  width: 100vw;     
+  margin-top:20%;
+}
+
+
+
+  .top-section-2{
+    background-color:#f1e7dd;  
+    height:50%; 
+    width: 100vw;     
+    margin-bottom:10%;
+   
   
     
   }
@@ -80,9 +94,8 @@ html, body {
 
   .boxed {
     background: ghostwhite; 
-    font-size: 20px; 
-    color:#C17C74;
-    padding: 10px;    
+    font-size: 16px; 
+    color:#C17C74;     
     border: 1px solid lightgray; 
     position:absolute;
     left:-4%;
@@ -91,9 +104,8 @@ html, body {
 
   .boxed-2{
     background: ghostwhite; 
-    font-size: 20px; 
-    color:#C17C74;
-    padding: 10px;    
+    font-size: 16px; 
+    color:#C17C74;   
     border: 1px solid lightgray; 
     position:absolute;
     left:-3%;
@@ -103,12 +115,11 @@ html, body {
   .boxed-3{
     background: ghostwhite; 
     font-size: 15px; 
-    color:#C17C74;
-    padding: 2px;    
+    color:#C17C74;           
     border: 1px solid lightgray; 
     position:absolute;
-    left:40%;
-    top:8%;
+    left:70%;
+    top:5%;
     
   }
 
@@ -119,8 +130,8 @@ html, body {
     padding: 2px;    
     border: 1px solid lightgray; 
     position:absolute;
-    top:3%;
-    right:28%;
+    top:40%;
+    left:70%;
     
   }
 
@@ -131,8 +142,8 @@ html, body {
     padding: 2px;    
     border: 1px solid lightgray; 
     position:absolute;
-    right:28%;
-    top:10%;
+    left:70%;
+    top:70%;
   }
 
 
@@ -181,8 +192,8 @@ html, body {
  .mid-section{ 
    background-color: #2A3D45;   
   height: 55vh;
-  width: 100vw; 
-  margin-top:15%;
+  width: 100vw;
+  margin-top:25%;  
  }
 
  .card {
@@ -204,7 +215,7 @@ html, body {
   background-color:#f1e7dd;   
     width: 100vw;   
     padding:5%;
-    margin-top:25%;
+    margin-top:0%;
     
 }
 
@@ -223,12 +234,32 @@ html, body {
   font: normal normal normal 20px/32px Raleway;
 }
 
+@media screen and (min-width:768px){
+  .card-text{
+    font-size:16px;
+    line-height:20px;
+  }
+}
+  
+
+
 
 .article-title {
 margin:5%;
 color:#C17C74;
 font-family: Crimson Text;
 }
+
+.article-link a{
+font: normal normal 600 20px/32px Raleway;
+letter-spacing: 3px;
+color: #C17C74;
+opacity: 1;
+text-decoration: none;
+border-bottom: #2A3D45 0.125em solid;
+}
+
+
 
 
 .article-card-title{
@@ -245,13 +276,78 @@ font-family: Crimson Text;
 }
 
 
+.instagram{
+  margin-top:5%;
+}
 
 
+.instagram-border-top{
+  background-color:#2A3D45;  
+  height:50px; 
+  width: 100vw;     
+ 
+}
+
+.instagram-border-bottom{
+  background-color:#2A3D45;  
+  height:50px; 
+  width: 100vw;     
+  margin-bottom:10%; 
+}
 
 
+.insta-title{
+  color:#f1e7dd;
+  font-size:20px;
+}
 
+.social-icons-insta{
+  color:#f1e7dd;
+  font-size:20px;
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  justify-content:center;
+}
+ 
 
+.footer{
+  background-color:#c17c74;
+  margin-top:10%;
+}
 
+.footer-links{ 
+  font-size:20px;
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  justify-content:space-evenly;
+}
+
+.footer-links a{
+  color:#f1e7dd;
+  text-decoration:none;
+}
+
+.footer-copyright{
+  color:#2A3D45;
+  font-weight: bold;
+  font-size:20px;
+  font-family: raleway;
+}
+
+.newsletter-button{
+  background-color:#2A3D45;
+  color:#f1e7dd;
+  padding:5px;
+}
+
+.newsletter-title{
+  color:#2A3D45;
+  font-size:18px; 
+  font-weight:bold;
+  font-family:raleway;
+}
 
 
 
@@ -304,6 +400,10 @@ i {
       margin-top:350%;
     }
 
+    .card-text{
+      font-size:12px;
+    }
+
  .sidebar{
    margin-left:50% !important;
  }
@@ -326,6 +426,8 @@ i {
 .article{
   margin-top:-300% !important;
 }
+
+
 
 }
   
